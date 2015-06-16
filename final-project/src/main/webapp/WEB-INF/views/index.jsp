@@ -24,7 +24,8 @@
 </table>
 </form>
 </div>
-<p>
+
+<hr/>
 
 <div>
 <table align="center" border=1><tr>
