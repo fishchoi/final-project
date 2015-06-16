@@ -9,25 +9,26 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div>
-<form action="" method="get">
-<img alt="로고" src="nbh.jpg">
-
-<table align="right" border=1>
-<tr>
-	<td><input type="text"></td>
-	<td rowspan="2"><input type="button" value="로그인"></td></tr>
-	<tr><td><input type="password"></td></tr>
-	<tr><td><input type="button" value="회원가입"></td>
-	<td><input type="button" value="비번찾기"></td>
-</tr>
-</table>
+<div id="logo_space">
+<img alt="로고" src="./img/nbh.jpg">
+</div>
+<div id="login_space">
+<form action="join" method="get">
+<fieldset>
+	<table align="right" border=1>
+	    <tr><td><input type="text"></td>
+		<td rowspan="2"><input type="submit" value="로그인"></td></tr>
+		<tr><td><input type="password"></td></tr>
+		<tr><td><a href="">회원가입</a></td>
+		<td><a href="">비밀번호 찾기</a></td></tr>
+	</table>
+</fieldset>
 </form>
 </div>
 
 <hr/>
 
-<div>
+<div id="menu_space">
 <table align="center" border=1><tr>
 <td>메뉴1</td><td>메뉴2</td><td>메뉴3</td><td>메뉴4</td>
 </tr></table>
@@ -76,6 +77,11 @@
 <img alt="small" src="">
 
 <p>
+
+<hr/>
+<div id="foot_space">
+<address>주소 : 서울시 서초구 서초동 1234 <br/> TEL: 02-1111-1111</address>
+</div>
 
 
 
